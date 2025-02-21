@@ -11,10 +11,10 @@
     min-width: 500px;
     max-height: 650px;
     min-height: 650px;
-    border: ridge;
+    /*border: ridge;
     border-color: #1e1e1e;
     border-radius: 10%;
-    background-color: #bfdfff;
+    background-color: white;*/
 }
 
 .contacts {
@@ -52,4 +52,14 @@ h3 a {
     margin-bottom: 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+.pfp-name {
+    border: ridge;
+    border-color: #1e1e1e;
+    border-radius: 10%;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
