@@ -16,49 +16,73 @@
 .main-title {
     text-align: center;
     font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+    /*border: transparent;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;*/
 }
 
 .projects {
     font-family: 'Arial', sans-serif;
-    width: 100%;
+    width: 125%;
     max-height: 50vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 15px;
+    gap: 20px;
     justify-items: center;
     box-sizing: border-box;
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    .projects {
+        width: 100%;
+    }
 }
 
 section a {
     text-decoration: none;
-    border: ridge;
-    color: #1e1e1e;
-    border-color: #1e1e1e;
+    border: transparent;
+    color: black;
+    font-weight: bold;
     /*color: white;
     border-color: white;*/
     border-width: 4px;
-    border-radius: 15%;
-    padding: 10px;
-    display: flex;
+    border-radius: 12px;
+    background-color: white;
+    padding: 8px 15px;
+    margin-top: auto;
 }
 
 section a:hover {
-    color: #0cc0e0;
+    transform: translateY(-5px);
+    background-color: #0cc0e0;
+    transition-duration: 0.5s;
 }
 
 .projects section {
     border: ridge;
     border-color: #1e1e1e;
-    border-radius: 5%;
-    width: auto;
+    border-radius: 15px;
+    border-width: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    padding: 20px;
+    background-color: #1e1e1e;
+    padding: 18px;
     font-size: 1.1rem;
-    background-color:white;
-    /*color: white;*/
+    box-shadow: 6px 6px 8px #0cc0e0;
+    color: white;
+}
+
+.projects section:hover {
+    transform: translateY(-10px);
+    border-color: #0cc0e0;
+    transition-duration: 0.5s;
 }
 
 section p {
@@ -71,22 +95,25 @@ section p {
 }
 
 .skills p {
-    border: ridge;
-    border-color: #1e1e1e;
-    padding: 5px;
+    border: transparent;
+    border-color: #0cc0e0;
+    padding: 5px 10px;
     margin: auto;
     border-width: 4px;
-    border-radius: 15%;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: bold;
+    color: #333;
+}
+
+.skills p:hover {
+    transform: translateY(-2px);
+    transition-duration: 0.4s;
+    background-color: #c7c7c7;
 }
 
 @media (max-width: 700px) {
     .projects {
         width: 500px;
     }
-}
-
-h3 {
-    /*color: #0cc0e0;*/
-    color: #1e1e1e;
-    text-decoration: underline;
 }

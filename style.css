@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #f4f4f4;
     font-family: 'Arial', 'sans-serif';
     background-image: url('/img/bg.webp');
 }
@@ -17,13 +16,17 @@ header {
 hr {
     margin: 0;
     border: none;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-top: 5px solid #0cc0e0; 
 }
 
 .logo {
     padding: 10px;
     padding-top: 15px;
+}
+
+.hdr-proj {
+    padding-left: 25px;
 }
 
 nav a {
@@ -45,3 +48,4 @@ nav a:hover {
     padding-top: 20px;
     display: flex;
 }
+
