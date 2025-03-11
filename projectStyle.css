@@ -102,9 +102,3 @@
     transition-duration: 0.4s;
     background-color: #c7c7c7;
 }
-
-@media (max-width: 700px) {
-    .projects {
-        width: 500px;
-    }
-}
