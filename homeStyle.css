@@ -50,7 +50,7 @@
 .intro-container {
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     width: 95vw;
     
@@ -58,13 +58,13 @@
 
 .name {
     margin: 20px;
-    font-size: 5rem;
+    font-size: clamp(2rem, 8vw, 5rem);
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: clamp(0.5rem, 4vw, 1.2rem);
 }
 
 .intro-title {
-    font-size: 2.2rem;
+    font-size: clamp(1rem, 5vw, 2rem);
 }

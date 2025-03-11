@@ -6,7 +6,7 @@ body {
 
 .hdr {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 9999;
 }
 
@@ -32,17 +32,18 @@ hr {
 }
 
 .hdr-proj {
-    padding-left: 25px;
+    padding-right: 25px;
 }
 
 nav a {
     color: white;
-    width: 100px;
+    width: 50px;
     background-color: transparent;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-size: 1.2rem;
-    padding: 10px;
 }
 
 nav a:hover {
@@ -53,5 +54,7 @@ nav a:hover {
     text-align: right;
     padding-top: 20px;
     display: flex;
+    gap: clamp(20px, 5vw, 100px);
+    
 }
 

@@ -2,6 +2,7 @@
     text-align: center;
     font-family: Arial, sans-serif;
     font-size: 1.3rem;
+    scroll-margin-top: 80px;
     /*border: transparent;
     background-color: #1e1e1e;
     border-radius: 15px;
@@ -12,6 +13,7 @@
 }
 
 .projects {
+    scroll-margin-top: 80px;
     font-family: 'Arial', sans-serif;
     width: 125%;
     display: grid;
@@ -20,6 +22,7 @@
     justify-items: center;
     box-sizing: border-box;
     padding-top: 10px;
+    padding-bottom: 15px;
     z-index: 10;
 }
 
@@ -59,10 +62,11 @@
     flex-direction: column;
     align-items: center;
     background-color: #1e1e1e;
-    padding: 18px;
     font-size: 1.1rem;
+    max-width: 80vw;
     /*box-shadow: 6px 6px 8px #0cc0e0;*/
     color: white;
+    padding-bottom: 10px;
 }
 
 .projects section:hover {
@@ -90,6 +94,7 @@
     background-color: white;
     font-weight: bold;
     color: #333;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
 }
 
 .skills p:hover {
