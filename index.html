@@ -6,47 +6,124 @@
     <title>David Friend Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="projectStyle.css">
     <link rel="icon" href="img/icon.png" type="image/png">
 </head>
 <body>
-    <header>
-        <img class="logo" src="img/iconrm.png" width="50" height="50">
-        <nav class="sections">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="skills.html">Skills</a>
-            <a class="hdr-proj" href="projects.html">Projects</a>
-        </nav>
-    </header>
+    <section class="hdr">
+        <header>
+            <img class="logo" src="img/iconrm.png" width="50" height="50">
+            <nav class="sections">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a class="hdr-proj" href="#project">Projects</a>
+            </nav>
+        </header>
+        <hr>
+    </section>
 
-    <hr>
     <div class="main-container">
-        <div class="pfp-container">
-            <img class="pfp" src="img/pfp2rm.png" width="350" height="380">
-        <section class="pfp-name">
-            <h2 class="intro">David Friend</h2>
-            <h3 class="intro-desc">Computer Science Student at JMU</h3>
-        </section>
-        </div>
-        <section class="contacts">
-            <div class="gitl-container">
-                <h3>
-                    <a class ="github" href="https://github.com/DavidFriend2" title="GitHub"><img src="img/gitlogorm.png" height="50" width="50"></a>
-                </h3>
+        <section class="home">
+            <div class="intro-container">
+                <h2 class="intro">Hello, I am</h2>
+                <h2 class="name">David Friend</h2>
+                <div class="description">
+                    <h3 class="intro-desc">I am a <span class="intro-title">Full Stack Developer</span></h3>
+                </div>
             </div>
+            <section class="contacts">
+                <div class="gitl-container">
+                    <h3>
+                        <a class ="github" href="https://github.com/DavidFriend2" title="GitHub"><img src="img/gitlogorm.png" height="50" width="50"></a>
+                    </h3>
+                </div>
+        
+                <div class="linkln-container">
+                    <h3>
+                        <a href="https://www.linkedin.com/in/david-friend-754728351/" title="LinkedIn"><img src="img/linkedlogo.png" height="50" width="50"></a>
+                    </h3>
+                </div>
     
-            <div class="linkln-container">
-                <h3>
-                    <a href="https://www.linkedin.com/in/david-friend-754728351/" title="LinkedIn"><img src="img/linkedlogo.png" height="50" width="50"></a>
-                </h3>
-            </div>
-
-            <div class="email-container">
-                <h3>
-                    <a href="mailto:davidcfriend21@gmail.com"><img src="img/gmaillogo.png" title="Email" height="50" width="55"></a>
-                </h3>
-            </div>
+                <div class="email-container">
+                    <h3>
+                        <a href="mailto:davidcfriend21@gmail.com"><img src="img/gmaillogo.png" title="Email" height="50" width="55"></a>
+                    </h3>
+                </div>
+            </section>
         </section>
+
+        <section id="about" class="pfp-about">
+            <section class="about-description">
+                <h3>About Me</h3>
+                <p class="about-summary">
+                    I am an aspiring software engineer from Leesburg, VA. I'm 
+                    currently attending James Madison University, majoring in 
+                    Computer Science expecting to graduate in May 2027. I'm passionate 
+                    about software development, problem-solving, and sports.
+                </p>
+            </section>
+            <img class="pfp" src="img/pfp2rm.png" width="350" height="380">
+        </section>
+        <section id="project" class="main-title">
+            <h2>Projects</h2>
+        </section>
+        <div class="projects">
+            <section class="project-1">
+                <h3>StockSim 📈</h3>
+                <div class="skills">
+                    <p>Python</p>
+                    <p>Django</p>
+                    <p>JavaScript</p>
+                </div>
+                <p>Stock simulation web application using 
+                    React.js for the front-end, Python (Django) for the back-end, 
+                    and MySQL for data storage.</p>
+                <p>
+                    (Currently In Progress)
+                </p>
+            </section>
+            <section class="project-2">
+                <h3>KLowBites 👨‍🍳</h3>
+                <div class="skills">
+                    <p>Java</p>
+                    <p>Git</p>
+                    <p>Scrum</p>
+                </div>
+                <p>
+                    Designed a user-friendly digital cookbook that allows users to 
+                    create, manage, and browse recipes with step-by-step instructions. 
+                    Equipped with essential tools such as measurement conversions, a user guide, 
+                    and a shopping list.
+                </p>
+                <a href="https://github.com/DavidFriend2/KLowBites">Source Code</a>
+            </section>
+            <section class="project-3">
+                <h3>HuffmanCoding 👨‍💻 </h3>
+                <div class="skills">
+                    <p>Java</p>
+                    <p>Data Structures</p>
+                </div>
+                <p>
+                    Implemented Huffman Coding to efficiently compress and decompress data, 
+                    encoding messages from a file and reconstructing original content from 
+                    binary-encoded data. 
+                </p>
+                <a href="https://github.com/DavidFriend2/Huffman-Coding">Source Code</a>
+            </section>
+            <section class="project-4">
+                <h3>ImprovedSorting 🔄</h3>
+                <div class="skills">
+                    <p>Java</p>
+                    <p>Algorithms</p>
+                </div>
+                <p>
+                    Created a more efficient MergeSort and QuickSort by implementing 
+                    InsertionSort in cases where it was more efficient.
+                </p>
+                <a href="https://github.com/DavidFriend2/Improved-Sorting">Source Code</a>
+            </section>
+        </div>
     </div>
 </body>
 </html>

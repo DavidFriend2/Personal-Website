@@ -1,7 +1,13 @@
 body {
     margin: 0;
     font-family: 'Arial', 'sans-serif';
-    background-image: url('img/bg.webp');
+    /*background-image: url('img/bg.webp');*/
+}
+
+.hdr {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 header {
