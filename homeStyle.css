@@ -6,6 +6,7 @@
     max-width: 700px;
     margin: 0 auto;
     color: black;
+    padding-top: 5vh;
     /*border: ridge;
     border-color: #1e1e1e;
     border-radius: 10%;
@@ -13,8 +14,17 @@
 }
 
 .home {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    color: white;
+    padding-top: 20vh;
+    height: 75vh;
+    background-image: url('img/homebackg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contacts {
